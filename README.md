@@ -16,16 +16,13 @@ Os componentes e tecnologias específicas serão adicionados conforme a necessid
 .
 ├── .github/
 │   └── workflows/
-├── docs/
+│       └── ci.yml
 ├── frontend/
 ├── backend/
-├── infra/
-├── scripts/
 ├── .editorconfig
 ├── .gitignore
 ├── .env.example
 ├── README.md
-└── LICENSE
 ```
 
 ### Diretórios
@@ -33,11 +30,8 @@ Os componentes e tecnologias específicas serão adicionados conforme a necessid
 | Diretório  | Descrição                                                            |
 | ---------- | -------------------------------------------------------------------- |
 | `.github`  | Configurações de GitHub Actions, templates de issues e pull requests |
-| `docs`     | Documentação do projeto                                              |
 | `frontend` | Aplicação frontend                                                   |
 | `backend`  | Aplicação backend                                                    |
-| `infra`    | Arquivos de infraestrutura, deploy e containers                      |
-| `scripts`  | Scripts auxiliares para desenvolvimento e automação                  |
 
 ---
 
@@ -127,11 +121,9 @@ Define arquivos e diretórios que não devem ser versionados.
 ## Roadmap Inicial
 
 * [x] Estrutura base do projeto
-* [ ] Padronização de commits
-* [ ] GitHub Actions
-* [ ] Docker
-* [ ] Testes automatizados
-* [ ] Qualidade de código
+* [x] Padronização de commits
+* [x] GitHub Actions
+* [x] Docker
 * [ ] Observabilidade
 * [ ] Deploy automatizado
 

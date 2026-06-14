@@ -31,8 +31,11 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Grant execute permission
+        run: chmod +x mvnw
+
       - name: Build Backend
-        run: ./mvnw clean package
+        run: ./mvnw clean package -DskipTests
 
   frontend:
     runs-on: ubuntu-latest

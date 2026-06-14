@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - main
+      - feature/github-actions
 
   pull_request:
     branches:
